@@ -6,6 +6,8 @@ I explore the model Snowflake/Arctic-Text2SQL-R1-7B
 1. They do not provide the requirements of their model.
 2. After a lot of trials, I got the version transformers==4.45.0, which is suitable for tokenizer and model.
 
+If the reasoning model does not converge to final answer, I used the last step answer as final answer. 
+
 ## Comparison for example
 
 | generated | True | Question | Gpt-4 |
