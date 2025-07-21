@@ -8,7 +8,8 @@ I explore the model Snowflake/Arctic-Text2SQL-R1-7B
 
 If the reasoning model does not converge to final answer, I used the last step answer as final answer. 
 
-## Comparison for example
+## Comparison between evaluate-Arctic-Text2SQL-R1-7B and GPT4 on spider-1 dataset
+Benchmark for evaluation:  https://yale-lily.github.io/spider
 
 | generated | True | Question | Gpt-4 |
 | --- | --- | --- | --- |
